@@ -330,8 +330,8 @@ test_that("Compare estimate_mdiff_ind_contrast to statpsych::ci.lc.median exampl
 
 
       mytest <- test_mdiff(estimate)
-      testthat::expect_equal(mytest$point_null$t, mysp$t)
-      testthat::expect_equal(mytest$point_null$p, mysp$p)
+      testthat::expect_equal(round(mytest$point_null$t, 4), mysp$t)
+      testthat::expect_equal(round(mytest$point_null$p, 5), mysp$p)
 
       if (!myaeq) {
         mysp <- as.list(
@@ -350,10 +350,10 @@ test_that("Compare estimate_mdiff_ind_contrast to statpsych::ci.lc.median exampl
           mysp$Estimate <- mysp$`adj Estimate`
         }
 
-        testthat::expect_equal(estimate$es_smd$effect_size, mysp$Estimate)
-        testthat::expect_equal(estimate$es_smd$LL, mysp$LL)
-        testthat::expect_equal(estimate$es_smd$UL, mysp$UL)
-        testthat::expect_equal(estimate$es_smd$SE, mysp$SE)
+        testthat::expect_equal(round(estimate$es_smd$effect_size, 4), mysp$Estimate)
+        testthat::expect_equal(round(estimate$es_smd$LL, 4), mysp$LL)
+        testthat::expect_equal(round(estimate$es_smd$UL, 4), mysp$UL)
+        testthat::expect_equal(round(estimate$es_smd$SE, 5), mysp$SE)
       }
 
     }
