@@ -40,7 +40,7 @@ children:
         name: from_summary
         children:
           - type: Label
-            label: '<span style="font-weight:normal">Correlation (<i>r</i>)</span>'
+            label: 'Correlation (<i>r</i>)'
             stretchFactor: 1
             horizontalAlignment: center
             cell:
@@ -55,7 +55,7 @@ children:
               column: 1
               row: 1
           - type: Label
-            label: '<span style="font-weight:normal">Sample size (<i>N</i>)</span>'
+            label: 'Sample size (<i>N</i>)'
             stretchFactor: 1
             horizontalAlignment: center
             cell:
@@ -301,47 +301,47 @@ children:
                   column: 3
                   row: 8
               - type: Label
-                label: '<span style="font-weight:normal">Shape</span>'
+                label: 'Shape'
                 cell:
                   column: 0
                   row: 3
               - type: Label
-                label: '<span style="font-weight:normal">Size</span>'
+                label: 'Size'
                 cell:
                   column: 0
                   row: 4
               - type: Label
-                label: '<span style="font-weight:normal">Outline</span>'
+                label: 'Outline'
                 cell:
                   column: 0
                   row: 5
               - type: Label
-                label: '<span style="font-weight:normal">Fill</span>'
+                label: 'Fill'
                 cell:
                   column: 0
                   row: 6
               - type: Label
-                label: '<span style="font-weight:normal">Transparency</span>'
+                label: 'Transparency'
                 cell:
                   column: 0
                   row: 7
               - type: Label
-                label: '<span style="font-weight:normal">Style</span>'
+                label: 'Style'
                 cell:
                   column: 0
                   row: 9
               - type: Label
-                label: '<span style="font-weight:normal">Thickness</span>'
+                label: 'Thickness'
                 cell:
                   column: 0
                   row: 10
               - type: Label
-                label: '<span style="font-weight:normal">Color</span>'
+                label: 'Color'
                 cell:
                   column: 0
                   row: 11
               - type: Label
-                label: '<span style="font-weight:normal">Transparency</span>'
+                label: 'Transparency'
                 cell:
                   column: 0
                   row: 12
@@ -453,7 +453,7 @@ children:
                   column: 0
                   row: 13
               - type: Label
-                label: '<span style="font-weight:normal">Label size</span>'
+                label: 'Label size'
                 cell:
                   column: 0
                   row: 14
@@ -464,7 +464,7 @@ children:
                   column: 1
                   row: 14
               - type: Label
-                label: '<span style="font-weight:normal">Label color</span>'
+                label: 'Label color'
                 cell:
                   column: 0
                   row: 15
@@ -490,22 +490,22 @@ children:
                   column: 3
                   row: 16
               - type: Label
-                label: '<span style="font-weight:normal">Style</span>'
+                label: 'Style'
                 cell:
                   column: 0
                   row: 17
               - type: Label
-                label: '<span style="font-weight:normal">Thickness</span>'
+                label: 'Thickness'
                 cell:
                   column: 0
                   row: 18
               - type: Label
-                label: '<span style="font-weight:normal">Color</span>'
+                label: 'Color'
                 cell:
                   column: 0
                   row: 19
               - type: Label
-                label: '<span style="font-weight:normal">Transparency</span>'
+                label: 'Transparency'
                 cell:
                   column: 0
                   row: 20
