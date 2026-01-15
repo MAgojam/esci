@@ -11,25 +11,25 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports: 
+    ggbeeswarm,
+    ggdist,
+    ggplot2,
+    ggtext,
+    glue,
     jmvcore (>= 0.8.5),
-    R6,
-    rlang,
+    legendry,
+    metafor,
+    mathjaxr,
     methods,
-    stats,
     multcomp,
+    R6,
+    Rdpack,
+    rlang,
     sadists,
     statpsych (>= 1.9),
-    metafor,
-    ggplot2,
-    ggdist,
-    ggtext,
-    ggbeeswarm,
-    glue,
-    Rdpack,
-    stringr,
-    mathjaxr
+    stats,
+    stringr
 Remotes:
-    teunbrand/legendry,
     dgbonett/statpsych
 RoxygenNote: 7.3.3
 Roxygen: list(markdown = TRUE)

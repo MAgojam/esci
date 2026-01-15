@@ -136,7 +136,7 @@ children:
         margin: none
         children:
           - type: Label
-            label: 'Dimensions'
+            label: '<strong>Dimensions</strong>'
             enable: '(switch:from_raw)'
             cell:
               column: 0
@@ -156,7 +156,7 @@ children:
               column: 2
               row: 1
           - type: Label
-            label: '<i>Y</i> axis'
+            label: '<strong><i>Y</i> axis</strong>'
             enable: '(switch:from_raw)'
             cell:
               column: 0
@@ -205,7 +205,7 @@ children:
               column: 1
               row: 5
           - type: Label
-            label: '<i>X</i> axis'
+            label: '<strong><i>X</i> axis</strong>'
             cell:
               column: 0
               row: 6
@@ -253,7 +253,7 @@ children:
               column: 1
               row: 9
           - type: Label
-            label: 'Other options'
+            label: '<strong>Other options</strong>'
             cell:
               column: 0
               row: 10
@@ -281,22 +281,22 @@ children:
             collapsed: true
             children:
               - type: Label
-                label: 'Raw data'
+                label: '<strong>Raw data</strong>'
                 cell:
                   column: 0
                   row: 2
               - type: Label
-                label: Regression
+                label: '<strong>Regression</strong>'
                 cell:
                   column: 1
                   row: 8
               - type: Label
-                label: Prediction
+                label: '<strong>Prediction</strong>'
                 cell:
                   column: 2
                   row: 8
               - type: Label
-                label: Residual
+                label: '<strong>Residual</strong>'
                 cell:
                   column: 3
                   row: 8
@@ -448,7 +448,7 @@ children:
                   column: 3
                   row: 12
               - type: Label
-                label: 'Prediction from <i>X</i>'
+                label: '<strong>Prediction from <i>X</i></strong>'
                 cell:
                   column: 0
                   row: 13
@@ -475,17 +475,17 @@ children:
                   column: 1
                   row: 15
               - type: Label
-                label: Guidelines
+                label: '<strong>Guidelines</strong>'
                 cell:
                   column: 1
                   row: 16
               - type: Label
-                label: PI
+                label: '<strong>PI</strong>'
                 cell:
                   column: 2
                   row: 16
               - type: Label
-                label: CI
+                label: '<strong>CI</strong>'
                 cell:
                   column: 3
                   row: 16
@@ -591,7 +591,7 @@ children:
         margin: none
         children:
           - type: Label
-            label: 'Dimensions'
+            label: '<strong>Dimensions</strong>'
             cell:
               column: 0
               row: 1
@@ -608,7 +608,7 @@ children:
               column: 2
               row: 1
           - type: Label
-            label: '<i>Y</i> axis'
+            label: '<strong><i>Y</i> axis</strong>'
             cell:
               column: 0
               row: 2
@@ -650,7 +650,7 @@ children:
               column: 1
               row: 5
           - type: Label
-            label: '<i>X</i> axis'
+            label: '<strong><i>X</i> axis</strong>'
             cell:
               column: 0
               row: 6
@@ -674,7 +674,7 @@ children:
               column: 2
               row: 7
           - type: Label
-            label: 'Distributions'
+            label: '<strong>Distributions</strong>'
             cell:
               column: 0
               row: 8
@@ -690,7 +690,7 @@ children:
             collapsed: true
             children:
               - type: Label
-                label: 'Summary'
+                label: '<strong>Summary</strong>'
                 cell:
                   column: 0
                   row: 1
@@ -720,7 +720,7 @@ children:
                   column: 0
                   row: 4
               - type: Label
-                label: 'CI'
+                label: '<strong>CI</strong>'
                 cell:
                   column: 0
                   row: 5
@@ -745,7 +745,7 @@ children:
                   column: 1
                   row: 7
               - type: Label
-                label: 'Error distribution'
+                label: '<strong>Error distribution</strong>'
                 cell:
                   column: 0
                   row: 8
