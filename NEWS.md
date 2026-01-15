@@ -1,8 +1,10 @@
 esci version 1.0.9 (Release data: 01/15/2026)
 ===========
 Changes:
+* Updated tests for statpsych 1.9
 * Better graph labels for meta mean when a reference value is provided (jamovi)
 * Bug fix for legendry package for meta-analyses with moderation (jamovi)
+* Removal of span elements from jamovi ui (jamovi)
 
 
 esci version 1.0.8 (Release data: 7/14/2025)

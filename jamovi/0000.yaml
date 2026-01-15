@@ -16,7 +16,7 @@ description: >-
   "_blank"> statpsych</a> package by Doug Bonett.</br>
 
 
-  1.0.9 - Updates for statpsych 1.9 and markdown rather than html in UI</br>
+  1.0.9 - Updates for statpsych 1.9 and fixes for span elements in UI</br>
 
 
   Please submit feedback, bug reports, and feature requests via the links
