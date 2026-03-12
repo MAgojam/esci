@@ -1,3 +1,10 @@
+esci version 1.0.10 (Release data: 03/10/2026)
+===========
+Changes:
+* Added ability to use REML and PM methods for meta analysis functions.  Hat tip
+to Justy Reed (Chicago State) for suggestion and help.
+* Updates for jamovi
+
 esci version 1.0.9 (Release data: 01/15/2026)
 ===========
 Changes:

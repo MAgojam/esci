@@ -284,22 +284,22 @@ children:
             collapsed: true
             children:
               - type: Label
-                label: '<em>Reference</em>'
+                label: '<em><b>Reference</b></em>'
                 cell:
                   column: 1
                   row: 1
               - type: Label
-                label: '<em>Comparison</em>'
+                label: '<em><b>Comparison</b></em>'
                 cell:
                   column: 2
                   row: 1
               - type: Label
-                label: '<em>Difference</em>'
+                label: '<em><b>Difference</b></em>'
                 cell:
                   column: 3
                   row: 1
               - type: Label
-                label: '<em>Unused</em>'
+                label: '<em><b>Unused</b></em>'
                 cell:
                   column: 4
                   row: 1

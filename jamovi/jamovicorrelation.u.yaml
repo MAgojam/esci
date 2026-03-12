@@ -291,17 +291,17 @@ children:
                   column: 0
                   row: 2
               - type: Label
-                label: '<em>Regression</em>'
+                label: '<em><b>Regression</b></em>'
                 cell:
                   column: 1
                   row: 8
               - type: Label
-                label: '<em>Prediction</em>'
+                label: '<em><b>Prediction</b></em>'
                 cell:
                   column: 2
                   row: 8
               - type: Label
-                label: '<em>Residual</em>'
+                label: '<em><b>Residual</b></em>'
                 cell:
                   column: 3
                   row: 8
@@ -481,17 +481,17 @@ children:
                   column: 1
                   row: 15
               - type: Label
-                label: '<em>Guidelines</em>'
+                label: '<em><b>Guidelines</b></em>'
                 cell:
                   column: 1
                   row: 16
               - type: Label
-                label: '<em>PI</em>'
+                label: '<em><b>PI</b></em>'
                 cell:
                   column: 2
                   row: 16
               - type: Label
-                label: '<em>CI</em>'
+                label: '<em><b>CI</b></em>'
                 cell:
                   column: 3
                   row: 16

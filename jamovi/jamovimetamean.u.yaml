@@ -107,6 +107,9 @@ children:
         enable: '(switch:from_raw)'
       - type: ComboBox
         name: random_effects
+      - type: ComboBox
+        name: method
+        enable: '(random_effects:random_effects)'
   - type: Label
     label: Results options
     stretchFactor: 1
@@ -269,22 +272,22 @@ children:
             collapsed: true
             children:
               - type: Label
-                label: '<em>Reference</em>'
+                label: '<em><b>Reference</b></em>'
                 cell:
                   column: 1
                   row: 3
               - type: Label
-                label: '<em>Comparison</em>'
+                label: '<em><b>Comparison</b></em>'
                 cell:
                   column: 2
                   row: 3
               - type: Label
-                label: '<em>Difference</em>'
+                label: '<em><b>Difference</b></em>'
                 cell:
                   column: 3
                   row: 3
               - type: Label
-                label: '<em>Unused</em>'
+                label: '<em><b>Unused</b></em>'
                 cell:
                   column: 4
                   row: 3
@@ -512,17 +515,17 @@ children:
                   column: 0
                   row: 15
               - type: Label
-                label: '<em>Outline</em>'
+                label: '<em><b>Outline</b></em>'
                 cell:
                   column: 1
                   row: 16
               - type: Label
-                label: '<em>Fill</em>'
+                label: '<em><b>Fill</b></em>'
                 cell:
                   column: 2
                   row: 16
               - type: Label
-                label: '<em>Transparency</em>'
+                label: '<em><b>Transparency</b></em>'
                 cell:
                   column: 3
                   row: 16
